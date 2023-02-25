@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+section {
+    margin: 10px;
+    position: relative;
+    display: grid;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: "none"
+}
+
+div {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-size: 12px;
+    margin: 5px;
+}
+
+label {
+    font-size: small;
+    display: contents;
+}
+
+input, button {
+    border: 1px solid #eedfdf;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+    color: black;
+    background: linear-gradient(#ffff, #c4c4c4);
+    border-radius: 0 2px 2px 0;
+}
